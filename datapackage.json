@@ -1,0 +1,34 @@
+{
+  "name": "cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024",
+  "title": "Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with statistics organized by age groups (children, adolescents, young adults, adults, older adults) and by countries (Mexico, Brazil, Argentina, Colombia, ",
+  "description": "Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with statistics organized by age groups (children, adolescents, young adults, adults, older adults) and by countries (Mexico, Brazil, Argentina, Colombia, ",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0 Universal",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Juan Moisés de la Serna Tuya",
+      "path": "https://orcid.org/0000-0002-8401-8018",
+      "role": "author",
+      "organization": "Universidad Internacional de La Rioja (UNIR)"
+    }
+  ],
+  "keywords": [
+    "cc0",
+    "dataset",
+    "open-data",
+    "zenodo"
+  ],
+  "sources": [
+    {
+      "title": "Compiled from public sources",
+      "path": "https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024"
+    }
+  ],
+  "created": "2026-03-20"
+}
