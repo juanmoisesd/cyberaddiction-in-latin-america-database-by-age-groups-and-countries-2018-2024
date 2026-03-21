@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024/blob/main/schema.json",
+  "title": "Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with statistics organized by age groups (children, adolescents, young adults, adults, older adults) and by countries (Mexico, Brazil, Argentina, Colombia, ",
+  "description": "JSON Schema for the dataset: Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with statistics organized by age groups (children, adolescents, young adults, adults, older adults) and by countries (Mexico, Brazil, Argentina, Colombia, ",
+  "type": "object",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juan Moisés de la Serna Tuya",
+    "orcid": "https://orcid.org/0000-0002-8401-8018"
+  },
+  "license": "CC0-1.0",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique row identifier"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country or region name"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Reference year",
+      "minimum": 1990,
+      "maximum": 2030
+    },
+    "value": {
+      "type": "number",
+      "description": "Primary metric value"
+    },
+    "unit": {
+      "type": "string",
+      "description": "Unit of measurement"
+    },
+    "source": {
+      "type": "string",
+      "description": "Original data source"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Additional notes"
+    }
+  },
+  "required": [
+    "id",
+    "country",
+    "year",
+    "value"
+  ],
+  "additionalProperties": true
+}
