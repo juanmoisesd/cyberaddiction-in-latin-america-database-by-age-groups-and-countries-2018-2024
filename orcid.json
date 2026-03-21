@@ -1,0 +1,16 @@
+{
+  "orcid": "0000-0002-8401-8018",
+  "name": "Juan Moisés de la Serna Tuya",
+  "affiliation": "Universidad Internacional de La Rioja (UNIR)",
+  "email": "juanmoises.delaserna@unir.net",
+  "website": "https://juanmoisesdelaserna.es",
+  "profile": "https://orcid.org/0000-0002-8401-8018",
+  "works": [
+    {
+      "title": "Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with statistics organized by age groups (children, adolescents, young adults, adults, older adults) and by countries (Mexico, Brazil, Argentina, Colombia, ",
+      "type": "dataset",
+      "url": "https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024",
+      "year": "2026"
+    }
+  ]
+}
