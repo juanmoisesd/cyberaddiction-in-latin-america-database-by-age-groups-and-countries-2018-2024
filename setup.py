@@ -1,13 +1,2 @@
-from setuptools import setup, find_packages
-setup(
-    name="cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024",
-    version="1.0.0",
-    description="Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with ",
-    author="de la Serna, Juan Moisés",
-    url="https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024",
-    packages=find_packages(),
-    install_requires=["pandas>=1.3.0","requests>=2.26.0"],
-    python_requires=">=3.7",
-    classifiers=["Programming Language :: Python :: 3","License :: OSI Approved :: MIT License","Topic :: Scientific/Engineering"],
-    keywords="age-structure, cc0, citation, dataset, demographic-transition, demography, fair-data, iberoamerica, juan-moises-de-la-serna, latam, latin-america, open-data, open-science, orcid, population-data, research, zenodo, zenodo, open-data",
-)
+from setuptools import setup,find_packages
+setup(name="cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024",version="1.0.0",description="Database on cyberaddiction (internet, social media and video game addiction) in Latin America, with ",author="de la Serna, Juan Moisés",url="https://github.com/juanmoisesd/cyberaddiction-in-latin-america-database-by-age-groups-and-countries-2018-2024",packages=find_packages(),install_requires=["pandas>=1.3.0","requests>=2.26.0"],python_requires=">=3.7",classifiers=["Programming Language :: Python :: 3","License :: OSI Approved :: MIT License","Topic :: Scientific/Engineering"],keywords="age-structure, cc0, citation, dataset, demographic-transition, demography, fair-data, iberoamerica, juan-moises-de-la-serna, latam, latin-america, open-data, open-science, orcid, population-data, research, zenodo, zenodo, open-data, dataset")
